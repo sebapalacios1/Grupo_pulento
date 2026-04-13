@@ -19,7 +19,7 @@ def trama(a):
         print(f"Ocurrió un error inesperado: {e}")
 
 # Pruebas
-#procesar_trama("TEMP:25.4")  # Correcto
-#procesar_trama("HUM_40")      # Gatilla IndexError
-#procesar_trama("PRES:N/A")    # Gatilla ValueError
-
+#procesar_trama("temperatur:25.4")  
+#procesar_trama("HUM_40")      
+#procesar_trama("PRES:N/A")    
+#procesar_trama("tiempo: 40 segundos")
